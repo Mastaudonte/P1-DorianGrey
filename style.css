@@ -12,7 +12,7 @@ h2 {
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
 /* rest */
-    position: center;
+    text-align: center;
 }
 
 h3 {
@@ -29,7 +29,7 @@ h3 {
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
 /* rest */
-    position: center;
+    text-align: center;
 }
 
 h4 {
@@ -46,7 +46,7 @@ h4 {
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
 /* rest */
-    position: center;
+    text-align: center;
 }
 
 h5 {
@@ -63,7 +63,7 @@ h5 {
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
 /* rest */
-    position: center;
+    text-align: center;
 }
 
 h6 {
@@ -80,5 +80,5 @@ h6 {
     -ms-transform: scale(1, -1);
     transform: scale(1, -1);
 /* rest */
-    position: center;
+    text-align: center;
 }
