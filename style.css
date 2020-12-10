@@ -28,19 +28,23 @@ h1{
 .conteneur2 {
     display: grid;
     grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
+    width: 100vw;
 }
 
 .conteneur4 {
     display: grid;
     grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
+    width: 100vw;
 }
 
 .conteneur6 {
     display: grid;
     grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
+    width: 100vw;
 }
 
 .conteneur8 {
     display: grid;
     grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
+    width: 100vw;
 }
