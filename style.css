@@ -47,27 +47,27 @@ h4 {
     grid-row: 3;
 }
 
-.conteneur2 {
+.conteneur {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 100px);
     height: 100vh;
     width: 100vw;
 }
 
-.conteneur4 {
+.conteneur2 {
     display: grid;
     grid-template: repeat(3, 160px) 1fr / repeat(2, 150vw) 1fr;
     width: 100vw;
 }
 
-.conteneur6 {
+.conteneur3 {
     display: grid;
     grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
     width: 100vw;
 }
 
-.conteneur8 {
+.conteneur4 {
     display: grid;
     grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
     width: 100vw;
