@@ -63,19 +63,33 @@ h4 {
 
 .conteneur2 {
     display: grid;
-    grid-template: repeat(3, 160px) 1fr / repeat(2, 150vw) 1fr;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(15, 6.6vh);
+    height: 100vh;
     width: 100vw;
 }
 
 .conteneur3 {
     display: grid;
-    grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(15, 6.6vh);
+    height: 100vh;
     width: 100vw;
 }
 
 .conteneur4 {
     display: grid;
-    grid-template: repeat(2, 122px) 1fr / repeat(3, 160px) 1fr;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(15, 6.6vh);
+    height: 100vh;
+    width: 100vw;
+}
+
+.conteneur5 {
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: repeat(15, 6.6vh);
+    height: 100vh;
     width: 100vw;
 }
 
