@@ -5,13 +5,13 @@ body {
 }
 
 .trans {
-    height: 100px;
+    height: 200px;
     width: 100vw;
 }
 
 .ABCD {
-    color: white;
-    text-emphasis: center;
+    color: red;
+    text-align: center;
 }
 
 h1{
