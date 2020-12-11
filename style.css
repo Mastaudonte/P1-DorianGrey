@@ -1,3 +1,8 @@
+body {
+    background: url(img/RyukFond.jpg);
+    background-size: cover;
+}
+
 h1{
     font-size: 50px;
     text-align: center;
@@ -35,14 +40,15 @@ h4 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(17, 6.6vh);
     width: 100vw;
-    background-color:silver;
+    background-color: transparent;
+    /* background-color:silver;
     background-image:
     radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
     radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
     radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
     radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
     radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
-    background-size: 100px 50px;
+    background-size: 100px 50px; */
 }
 .titre {
     grid-column: 4 / 7;
@@ -54,7 +60,7 @@ h4 {
 }
 .portrait {
     width: 40vw;
-    height: 72.6vh;
+    height: 79.2vh;
 }
 .mot1 {
     grid-column: 7 / 8;
@@ -74,11 +80,11 @@ h4 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(17, 6.6vh);
     background:
-    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
-    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
-    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
-    linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
-    background-color: slategray;
+    radial-gradient(circle, transparent 20%, grey 20%, grey 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, grey 20%, grey 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#80ee93 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #80ee93 8px, transparent 8px) -4px 0;
+    background-color: grey;
     background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 .right {
@@ -103,10 +109,10 @@ h4 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(17, 6.6vh);
     background: 
-    linear-gradient(63deg,white 23%, transparent 23%) 7px 0,
-    linear-gradient(63deg, transparent 74%, white 78%),
-    linear-gradient(63deg, transparent 34%, white 38%, white 58%, transparent 62%),
-    #444;
+    linear-gradient(63deg,grey 23%, transparent 23%) 7px 0,
+    linear-gradient(63deg, transparent 74%, grey 78%),
+    linear-gradient(63deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
+    white;
     background-size: 16px 48px;;
 }
 
