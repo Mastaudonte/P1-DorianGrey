@@ -32,6 +32,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.FBlanc {
+    background-color: grey;
+}
 
 .ABCD {
     color: red;
