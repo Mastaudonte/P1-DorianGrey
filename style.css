@@ -1,12 +1,11 @@
 body {
     background-color: transparent;
-    background-color:silver;
     background-image:
-    radial-gradient(circle at 100% 150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0    150%, silver 24%, white 24%, white 28%, silver 28%, silver 36%, white 36%, white 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50%  100%, white 10%, silver 10%, silver 23%, white 23%, white 30%, silver 30%, silver 43%, white 43%, white 50%, silver 50%, silver 63%, white 63%, white 71%, transparent 71%, transparent),
-    radial-gradient(circle at 100% 50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent),
-    radial-gradient(circle at 0    50%, white 5%, silver 5%, silver 15%, white 15%, white 20%, silver 20%, silver 29%, white 29%, white 34%, silver 34%, silver 44%, white 44%, white 49%, transparent 49%, transparent);
+    radial-gradient(circle at 100% 150%, pink 24%, lightblue 24%, lightblue 28%, pink 28%, pink 36%, lightblue 36%, lightblue 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, pink 24%, lightblue 24%, lightblue 28%, pink 28%, pink 36%, lightblue 36%, lightblue 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, white 10%, lightgreen 10%, lightgreen 23%, lightblue 23%, lightblue 30%, pink 30%, pink 43%, lightblue 43%, lightblue 50%, pink 50%, pink 63%, lightblue 63%, lightblue 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent),
+    radial-gradient(circle at 0    50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent);
     background-size: 100px 50px;
 }
 
@@ -77,7 +76,6 @@ h4 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    width: 100vw;
     background: 
     linear-gradient(63deg,grey 23%, transparent 23%) 7px 0,
     linear-gradient(63deg, transparent 74%, grey 78%),
