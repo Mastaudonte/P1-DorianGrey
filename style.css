@@ -26,7 +26,7 @@ body {
     margin-left: 19vw;
     margin-right: 21vw;
     margin-top: -15.5px;
-    height: 300px;
+    height: 100px;
     width: 60vw;
     background-image: url(image/RyukFond.jpg);
     background-size: cover;
@@ -80,7 +80,7 @@ h4 {
     linear-gradient(63deg, transparent 74%, grey 78%),
     linear-gradient(63deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
     white;
-    background-size: 16px 48px;;
+    background-size: 16px 48px;
 }
 .titre {
     grid-column: 4 / 7;
@@ -112,11 +112,11 @@ h4 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
     background: 
-    linear-gradient(70deg,grey 23%, transparent 23%) 7px 0,
-    linear-gradient(70deg, transparent 74%, grey 78%),
-    linear-gradient(70deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
+    linear-gradient(70deg, rgb(92, 91, 91) 23%, transparent 23%) 7px 0,
+    linear-gradient(70deg, transparent 74%, rgb(92, 91, 91) 78%),
+    linear-gradient(70deg, transparent 34%, rgb(92, 91, 91) 38%, rgb(92, 91, 91) 58%, transparent 62%),
     white;
-    background-size: 16px 48px;;
+    background-size: 16px 48px;
 }
 .right {
     grid-column: 6 / 9;
@@ -140,11 +140,11 @@ h4 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
     background: 
-    linear-gradient(77deg,grey 23%, transparent 23%) 7px 0,
-    linear-gradient(77deg, transparent 74%, grey 78%),
-    linear-gradient(77deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
+    linear-gradient(77deg,rgb(46, 46, 46) 23%, transparent 23%) 7px 0,
+    linear-gradient(77deg, transparent 74%, rgb(46, 46, 46) 78%),
+    linear-gradient(77deg, transparent 34%, rgb(46, 46, 46) 38%, rgb(46, 46, 46) 58%, transparent 62%),
     white;
-    background-size: 16px 48px;;
+    background-size: 16px 48px;
 }
 
 .conteneur4 {
@@ -152,11 +152,11 @@ h4 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
     background: 
-    linear-gradient(77deg,grey 23%, transparent 23%) 7px 0,
-    linear-gradient(77deg, transparent 74%, grey 78%),
-    linear-gradient(77deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
+    linear-gradient(91deg,black 23%, transparent 23%) 7px 0,
+    linear-gradient(91deg, transparent 74%, black 78%),
+    linear-gradient(91deg, transparent 34%, black 38%, black 58%, transparent 62%),
     white;
-    background-size: 16px 48px;;
+    background-size: 16px 48px;
 }
 
 .conteneur5 {
