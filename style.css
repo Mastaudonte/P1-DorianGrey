@@ -196,7 +196,7 @@ h4 {
 .conteneur5 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
-    grid-template-rows: repeat(19, 6.6vh);
+    grid-template-rows: repeat(24, 6.6vh);
     background-color:black;
     background-image:
     radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -205,6 +205,23 @@ h4 {
     radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.imagefinale {
+    transform: rotate(45deg);
+    grid-column: 4 / 8;
+    grid-row: 8 / 19;
+    width: 40vw;
+    height: 95.7vh;
+}
+
+.flamme {
+    transform: rotate(45deg);
+    grid-column: 3 / 8;
+    grid-row: 16 / 19;
+    width: 40vw;
+    margin-left: -30px;
+    margin-top: -27.5px;
 }
 
 #blanc {
@@ -217,3 +234,4 @@ h4 {
     font-weight: normal;
     font-style: normal;
 }
+
