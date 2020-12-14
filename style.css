@@ -31,12 +31,26 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-.FBlanc {
-    background-color: grey;
+
+.trans2 {
+    margin-left: 19vw;
+    margin-right: 21vw;
+    margin-top: -15.5px;
+    height: 100px;
+    width: 60vw;
 }
+
+/*.FBlanc {
+    background-color: grey;
+}*/
 
 .ABCD {
     color: red;
+    text-align: center;
+}
+
+.ABCD2 {
+    color:white;
     text-align: center;
 }
 
