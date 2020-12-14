@@ -7,6 +7,15 @@ body {
     radial-gradient(circle at 100% 50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent),
     radial-gradient(circle at 0    50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent);
     background-size: 100px 50px;
+    overflow-x: hidden; 
+}
+
+.theatre {
+    background-image: url(image/théatre.jpg);
+    background-size: cover;
+    width: 100vw;
+    margin-left: -10px;
+    margin-right: 20px;
 }
 
 .Bonjour {
@@ -40,9 +49,10 @@ body {
     width: 60vw;
 }
 
-/*.FBlanc {
-    background-color: grey;
-}*/
+.FBlanc {
+    background-image: url(image/théatre2.png);
+    background-size: cover;
+}
 
 .ABCD {
     color: red;
