@@ -196,7 +196,7 @@ h4 {
 .conteneur5 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
-    grid-template-rows: repeat(24, 6.6vh);
+    grid-template-rows: repeat(25, 6.6vh);
     background-color:black;
     background-image:
     radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -213,6 +213,7 @@ h4 {
     grid-row: 8 / 19;
     width: 40vw;
     height: 95.7vh;
+    animation: pendule 5s linear infinite
 }
 
 .flamme {
@@ -222,6 +223,7 @@ h4 {
     width: 40vw;
     margin-left: -30px;
     margin-top: -27.5px;
+    animation: pendule 5s linear infinite
 }
 
 #blanc {
@@ -233,5 +235,17 @@ h4 {
     src: url('../fonts/ohthehorror.woff2') format('woff2'), url('../fonts/ohthehorror.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+@keyframes pendule {
+    0%, 100%{
+        transform: rotate(45deg)
+    }
+    25%{
+        transform: rotate(42deg)
+    }
+    75%{
+        transform: rotate(45.5deg)
+    }
 }
 
