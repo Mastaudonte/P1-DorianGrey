@@ -126,16 +126,19 @@ h4 {
     grid-column: 7 / 8;
     grid-row: 6;
     font-size: 30px;
+    animation: -croissant 3s linear 2s  normal none;
 }
 .mot2 {
     grid-column: 8 / 9;
     grid-row: 10;
     font-size: 30px;
+    animation: -moveX 3s linear 2s  normal none;
 }
 .mot3 {
     grid-column: 7 / 8;
     grid-row: 14;
     font-size: 30px;
+    animation: -decroissant 3s linear 2s  normal none;
 }
 
 .conteneur2 {
@@ -157,16 +160,19 @@ h4 {
     grid-column: 3 / 4;
     grid-row: 6;
     font-size: 30px;
+    animation: decroissant 3s linear 2s  normal none;
 }
 .mot2by {
     grid-column: 2 / 3;
     grid-row: 10;
     font-size: 30px;
+    animation: moveX 3s linear 2s  normal;
 }
 .mot3by {
     grid-column: 3 / 4;
     grid-row: 14;
     font-size: 30px;
+    animation: croissant 3s linear 2s  normal none;
 }
 
 .conteneur3 {
@@ -249,3 +255,56 @@ h4 {
     }
 }
 
+@keyframes croissant {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(500px, -500px);
+    }
+}
+
+@keyframes -croissant {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(-500px, 500px);
+    }
+}
+
+@keyframes decroissant {
+    from { 
+        transform: translate(0px, 0px) 
+    }
+    to { 
+        transform: translate(500px, 500px) 
+    }
+}
+
+@keyframes -decroissant {
+    from { 
+        transform: translate(0px, 0px) 
+    }
+    to { 
+        transform: translate(-500px, -500px) 
+    }
+}
+
+@keyframes moveX {
+    from {
+        transform: translateX(0px); 
+    }
+    to {
+        transform: translateX(700px);
+    }
+}
+
+@keyframes -moveX {
+    from {
+        transform: translateX(0px); 
+    }
+    to {
+        transform: translateX(-700px);
+    }
+}
