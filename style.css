@@ -148,12 +148,8 @@ h4 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background: 
-    linear-gradient(63deg,grey 23%, transparent 23%) 7px 0,
-    linear-gradient(63deg, transparent 74%, grey 78%),
-    linear-gradient(63deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
-    white;
-    background-size: 16px 48px;
+    background-color: rgba(0, 161, 201, 0.5);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
     border-radius: 70px;
 }
 .titre {
@@ -193,12 +189,8 @@ h4 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background: 
-    linear-gradient(70deg, rgb(92, 91, 91) 23%, transparent 23%) 7px 0,
-    linear-gradient(70deg, transparent 74%, rgb(92, 91, 91) 78%),
-    linear-gradient(70deg, transparent 34%, rgb(92, 91, 91) 38%, rgb(92, 91, 91) 58%, transparent 62%),
-    white;
-    background-size: 16px 48px;
+    background-color:rgba(206, 206, 5, 0.6);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
     border-radius: 70px;
 }
 .right {
@@ -230,12 +222,8 @@ h4 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background: 
-    linear-gradient(77deg,rgb(46, 46, 46) 23%, transparent 23%) 7px 0,
-    linear-gradient(77deg, transparent 74%, rgb(46, 46, 46) 78%),
-    linear-gradient(77deg, transparent 34%, rgb(46, 46, 46) 38%, rgb(46, 46, 46) 58%, transparent 62%),
-    white;
-    background-size: 16px 48px;
+    background-color: rgba(5, 94, 2, 0.7);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
     border-radius: 70px;
 }
 
@@ -243,12 +231,8 @@ h4 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background: 
-    linear-gradient(91deg,black 23%, transparent 23%) 7px 0,
-    linear-gradient(91deg, transparent 74%, black 78%),
-    linear-gradient(91deg, transparent 34%, black 38%, black 58%, transparent 62%),
-    white;
-    background-size: 16px 48px;
+    background-color:   rgba(204, 4, 4, 0.8);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
     border-radius: 70px;
 }
 
@@ -367,7 +351,7 @@ h4 {
     }
 }
 
-@keyframes decroissant {        
+@keyframes decroissant {
     0% {
         transform: translate(-2px, -2px);
     }
@@ -515,7 +499,7 @@ h4 {
 }
 
 @keyframes opacite {
-    0% { 
+    0% {
         opacity: 0;
     }
     55% {
