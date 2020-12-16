@@ -16,7 +16,7 @@ body {
 }*/
 
 .theatre {
-    background-image: url(image/théatre.jpg);
+    background-image: url(image/theatre.jpg);
     background-size: cover;
     width: 100vw;
     margin-left: -10px;
@@ -41,7 +41,7 @@ body {
     margin-top: -15.5px;
     height: 100px;
     width: 60vw;
-    background-image: url(image/RyukFond.jpg);
+    background-image: url(image/ryukfond.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .fblanc {
-    background-image: url(image/théatre2.png);
+    background-image: url(image/theatre2.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -63,7 +63,7 @@ body {
 }
 
 .fblanc3 {
-    background-image: url(image/théatre3.png);
+    background-image: url(image/theatre3.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
