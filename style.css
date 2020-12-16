@@ -165,7 +165,7 @@ h4 {
     height: 95.7vh;
 }
 .portrait {
-    
+    animation: opacite 10s linear 2s infinite normal none;
 }
 .mot1 {
     grid-column: 7 / 8;
@@ -316,19 +316,19 @@ h4 {
         transform: translate(2px, -2px);
     }
     50% {
-        transform: translate(-2px, 2px);
-    }
-    62% {
-        transform: translate(2px, -2px);
-    }
-    75% {
         transform: translate(0px, 0px);
     }
-    87% {
+    62% {
         transform: translate(500px, -500px);
     }
-    100% {
+    75% {
         transform: translateX(0px, 0px);
+    }
+    87% {
+        transform: translate(-2px, 2px);
+    }
+    100% {
+        transform: translate(2px, -2px);
     }
 }
 
@@ -346,19 +346,19 @@ h4 {
         transform: translate(-2px, 2px);
     }
     50% {
-        transform: translate(2px, -2px);
-    }
-    62% {
-        transform: translate(-2px, 2px);
-    }
-    75% {
         transform: translate(0px, 0px);
     }
-    87% {
+    62% {
         transform: translate(-500px, 500px);
     }
-    100% {
+    75% {
         transform: translateX(0px, 0px);
+    }
+    87% {
+        transform: translate(2px, -2px);
+    }
+    100% {
+        transform: translate(-2px, 2px);
     }
 }
 
@@ -376,19 +376,19 @@ h4 {
         transform: translate(2px, 2px);
     }
     50% {
-        transform: translate(-2px, -2px);
-    }
-    62% {
-        transform: translate(2px, 2px);
-    }
-    75% {
         transform: translate(0px, 0px);
     }
-    87% {
+    62% {
         transform: translate(500px, 500px);
     }
-    100% {
+    75% {
         transform: translateX(0px, 0px);
+    }
+    87% {
+        transform: translate(-2px, -2px);
+    }
+    100% {
+        transform: translate(2px, 2px);
     }
 }
 
@@ -406,19 +406,19 @@ h4 {
         transform: translate(-2px, -2px);
     }
     50% {
-        transform: translate(2px, 2px);
-    }
-    62% {
-        transform: translate(-2px, -2px);
-    }
-    75% {
         transform: translate(0px, 0px);
     }
-    87% {
+    62% {
         transform: translate(-500px, -500px);
     }
-    100% {
+    75% {
         transform: translateX(0px, 0px);
+    }
+    87% {
+        transform: translate(2px, 2px);
+    }
+    100% {
+        transform: translate(-2px, -2px);
     }
 }
 
@@ -436,19 +436,19 @@ h4 {
         transform: translateX(2px);
     }
     50% {
-        transform: translateX(-2px);
+        transform: translateX(0px);
     }
     62% {
-        transform: translateX(2px);
+        transform: translateX(700px);
     }
     75% {
         transform: translateX(0px);
     }
     87% {
-        transform: translateX(700px);
+        transform: translateX(-2px);
     }
     100% {
-        transform: translateX(0px);
+        transform: translateX(2px);
     }
 }
 
@@ -466,19 +466,19 @@ h4 {
         transform: translateX(-2px);
     }
     50% {
-        transform: translateX(2px);
+        transform: translateX(0px);
     }
     62% {
-        transform: translateX(-2px);
+        transform: translateX(-700px);
     }
     75% {
         transform: translateX(0px);
     }
     87% {
-        transform: translateX(-700px);
+        transform: translateX(2px);
     }
     100% {
-        transform: translateX(0px);
+        transform: translateX(-2px);
     }
 }
 
@@ -500,6 +500,24 @@ h4 {
     }
 
 
+}
+
+@keyframes opacite {
+    0% { 
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    63% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @font-face {
