@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background-color: transparent;
     background-image:
     radial-gradient(circle at 100% 150%, pink 24%, lightblue 24%, lightblue 28%, pink 28%, pink 36%, lightblue 36%, lightblue 40%, transparent 40%, transparent),
@@ -7,7 +8,7 @@ body {
     radial-gradient(circle at 100% 50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent),
     radial-gradient(circle at 0    50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent);
     background-size: 100px 50px;
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
 }
 
 /* .debut-site {
@@ -18,47 +19,47 @@ body {
 .theatre {
     background-image: url(image/theatre.jpg);
     background-size: cover;
-    width: 100vw;
+    width: 100%;
     margin-left: -10px;
     margin-right: 20px;
 }
 
 .bonjour {
     height: 100px;
-    width: 100vh;
+    width: 100%;
 }
 
 .axe {
     height: 100px;
-    width: 50vw;
-    margin-left: 25vw;
-    margin-right: 25vw;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .trans {
-    margin-left: 19vw;
-    margin-right: 21vw;
+    margin-left: 19%;
+    margin-right: 21%;
     margin-top: -15.5px;
     height: 100px;
-    width: 60vw;
+    width: 60%;
     background-image: url(image/ryukfond.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
 
 .trans2 {
-    margin-left: 19vw;
-    margin-right: 21vw;
+    margin-left: 19%;
+    margin-right: 21%;
     margin-top: -15.5px;
     height: 100px;
-    width: 60vw;
+    width: 60%;
 }
 
 .fblanc {
     background-image: url(image/theatre2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     margin-left: -10px;
 }
 
@@ -66,16 +67,17 @@ body {
     background-image: url(image/theatre3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 100%;
     margin-left: -10px;
 }
 
 .fblanc4 {
-    width: 100vw;
+    width: 100%;
     margin-top: -100px;
     margin-left: -10px;
 }
 .scene {
+    width: 100%;
     margin-top: 7vh;
     background-color:black;
     background-image:
@@ -94,7 +96,7 @@ body {
     grid-row: 1 / 4;
     grid-column: 1 /10;
     height: 30vh;
-    width: 99vw;
+    width: 100%;
 }
 
 .abcd {
@@ -144,6 +146,7 @@ h4 {
 }
 
 .conteneur {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
@@ -153,6 +156,7 @@ h4 {
     linear-gradient(63deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
     white;
     background-size: 16px 48px;
+    border-radius: 30px;
 }
 .titre {
     grid-column: 4 / 7;
@@ -172,7 +176,6 @@ h4 {
     grid-row: 6;
     font-size: 30px;
     animation: -croissant 10s linear 2s infinite normal none;
-    transform: rotate(-45);
 }
 .mot2 {
     grid-column: 8 / 9;
@@ -189,6 +192,7 @@ h4 {
 }
 
 .conteneur2 {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
@@ -225,6 +229,7 @@ h4 {
 }
 
 .conteneur3 {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
@@ -237,6 +242,7 @@ h4 {
 }
 
 .conteneur4 {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
@@ -249,6 +255,7 @@ h4 {
 }
 
 .conteneur5 {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(25, 6.6vh);
@@ -394,7 +401,11 @@ h4 {
 
 @keyframes -decroissant {
     0% {
+        transform: rotate(-45deg);
+    }
+    1% {
         transform: translate(2px, 2px);
+
     }
     12% {
         transform: translate(-2px, -2px);
@@ -417,8 +428,11 @@ h4 {
     87% {
         transform: translate(2px, 2px);
     }
-    100% {
+    99% {
         transform: translate(-2px, -2px);
+    }
+    100% {
+        transform: rotate(-45deg);
     }
 }
 
