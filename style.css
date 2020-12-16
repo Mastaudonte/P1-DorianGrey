@@ -54,12 +54,36 @@ body {
     width: 60vw;
 }
 
+.trans3 {
+    height: 100px;
+    width: 100vw;
+}
+
 .FBlanc {
     background-image: url(image/théatre2.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     margin-left: -10px;
+}
+
+.FBlanc3 {
+    background-image: url(image/théatre3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin-left: -10px;
+}
+
+.FBlanc4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin-left: -10px;
+}
+.scene {
+    background-image: url(image/théatre4.png);
+    background-size: cover;
 }
 
 .ABCD {
@@ -241,14 +265,10 @@ h4 {
     color: white;
 }
 
-#decroche {}
-
-@font-face {
-    font-family: 'ohthehorror';
-    src: url('../fonts/ohthehorror.woff2') format('woff2'), url('../fonts/ohthehorror.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+#decroche {
+    animation-name: decrocher;
 }
+
 
 @keyframes pendule {
     0%, 100%{
@@ -440,4 +460,11 @@ h4 {
     100% {
         transform: translateX(0px);
     }
+}
+
+@font-face {
+    font-family: 'ohthehorror';
+    src: url('../fonts/ohthehorror.woff2') format('woff2'), url('../fonts/ohthehorror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
