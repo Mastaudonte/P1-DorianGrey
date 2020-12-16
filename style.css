@@ -510,10 +510,10 @@ h4 {
         opacity: 0;
     }
     63% {
-        opacity: 1;
+        opacity: 100%;
     }
     80% {
-        opacity: 1;
+        opacity: 100%;
     }
     100% {
         opacity: 0;
