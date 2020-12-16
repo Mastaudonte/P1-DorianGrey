@@ -118,7 +118,7 @@ h1{
     width: 40vw;
 }
 h2{
-    font-family: 
+    font-family: 'parisienne';
 }
 h4 {
 }
@@ -516,6 +516,14 @@ h5 {
 @font-face {
     font-family: 'ohthehorror';
     src: url('../fonts/ohthehorror.woff2') format('woff2'), url('../fonts/ohthehorror.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'parisienne';
+    src: url('../p1-dorian-grey/fonts/parisienne/parisienne.woff2') format('woff2'), 
+    url('../p1-dorian-grey/fonts/parisienne/parisienne.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
