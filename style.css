@@ -101,6 +101,7 @@ body {
 .abcd {
     color: red;
     text-align: center;
+    animation: danger 2s linear 1s infinite normal none;
 }
 
 .abcde {
@@ -549,6 +550,36 @@ h5 {
     }
     100% {
         transform: translateY(1000px);
+    }
+}
+
+@keyframes danger {
+    0% {
+        opacity: 1;
+    }
+    12% {
+        opacity: 0.8;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    37% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 0;
+    }
+    62% {
+        opacity: 0.3;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    87% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
