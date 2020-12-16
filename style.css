@@ -154,7 +154,7 @@ h4 {
     linear-gradient(63deg, transparent 34%, grey 38%, grey 58%, transparent 62%),
     white;
     background-size: 16px 48px;
-    border-radius: 30px;
+    border-radius: 70px;
 }
 .titre {
     grid-column: 4 / 7;
@@ -199,6 +199,7 @@ h4 {
     linear-gradient(70deg, transparent 34%, rgb(92, 91, 91) 38%, rgb(92, 91, 91) 58%, transparent 62%),
     white;
     background-size: 16px 48px;
+    border-radius: 70px;
 }
 .right {
     grid-column: 6 / 9;
@@ -235,6 +236,7 @@ h4 {
     linear-gradient(77deg, transparent 34%, rgb(46, 46, 46) 38%, rgb(46, 46, 46) 58%, transparent 62%),
     white;
     background-size: 16px 48px;
+    border-radius: 70px;
 }
 
 .conteneur4 {
@@ -247,6 +249,7 @@ h4 {
     linear-gradient(91deg, transparent 34%, black 38%, black 58%, transparent 62%),
     white;
     background-size: 16px 48px;
+    border-radius: 70px;
 }
 
 .conteneur5 {
@@ -261,6 +264,7 @@ h4 {
     radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
     background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+    border-radius: 70px;
 }
 
 .imagefinale {
