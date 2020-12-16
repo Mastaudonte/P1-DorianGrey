@@ -384,11 +384,7 @@ h5 {
 
 @keyframes -decroissant {
     0% {
-        transform: rotate(-45deg);
-    }
-    1% {
         transform: translate(2px, 2px);
-
     }
     12% {
         transform: translate(-2px, -2px);
@@ -411,11 +407,8 @@ h5 {
     87% {
         transform: translate(2px, 2px);
     }
-    99% {
-        transform: translate(-2px, -2px);
-    }
     100% {
-        transform: rotate(-45deg);
+        transform: translate(-2px, -2px);
     }
 }
 
