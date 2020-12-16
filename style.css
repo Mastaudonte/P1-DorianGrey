@@ -232,9 +232,11 @@ h4 {
     animation: pendule 5s linear infinite
 }
 
-#blanc {
+.blanc {
     color: white;
 }
+
+#decroche {}
 
 @font-face {
     font-family: 'ohthehorror';
