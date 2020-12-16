@@ -10,6 +10,11 @@ body {
     overflow-x: hidden; 
 }
 
+.DébutSite {
+    height: 99vh;
+    width: 100vw;
+}
+
 .theatre {
     background-image: url(image/théatre.jpg);
     background-size: cover;
