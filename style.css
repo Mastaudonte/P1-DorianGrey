@@ -73,7 +73,7 @@ body {
 
 .fblanc4 {
     width: 100vw;
-    margin-top: -100px;
+    margin-top: -55px;
     margin-left: -10px;
 }
 .scene {
@@ -280,8 +280,12 @@ h5 {
     color: white;
 }
 
+.horror {
+    font-family: 'ohthehorror';
+}
+
 #decroche {
-    animation-name: decrocher;
+    animation: decrocher 10s linear 1s infinite normal none;
 }
 
 
@@ -481,17 +485,29 @@ h5 {
     0% {
         transform: rotate(0deg);
     }
+    12% {
+        transform: translateY(-10px);
+    }
     25% {
         transform: rotate(-10deg);
     }
-    50% {
-        transform: rotate(0deg);
+    27% {
+        transform: translateY(10px);
     }
-    75% {
+    50% {
         transform: rotate(10deg);
     }
+    62% {
+        transform: translateY(-10px);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    87% {
+        transform: translateY(10px);
+    }
     100% {
-        transform: rotate(0deg);
+        transform: rotate(10deg);
     }
 
 
@@ -512,6 +528,27 @@ h5 {
     }
     100% {
         opacity: 0;
+    }
+}
+
+@keyframes decrocher {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(110deg);
+    }
+    50% {
+        transform: rotate(85deg);
+    }
+    75% {
+        transform: rotate(100deg);
+    }
+    87% {
+        transform: rotate(95deg);
+    }
+    100% {
+        transform: translateY(1000px);
     }
 }
 
