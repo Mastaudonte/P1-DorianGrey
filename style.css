@@ -10,10 +10,10 @@ body {
     overflow-x: hidden; 
 }
 
-.DébutSite {
+/* .debut-site {
     height: 99vh;
     width: 100vw;
-}
+}*/
 
 .theatre {
     background-image: url(image/théatre.jpg);
@@ -23,12 +23,12 @@ body {
     margin-right: 20px;
 }
 
-.Bonjour {
+.bonjour {
     height: 100px;
     width: 100vh;
 }
 
-.Axe {
+.axe {
     height: 100px;
     width: 50vw;
     margin-left: 25vw;
@@ -54,7 +54,7 @@ body {
     width: 60vw;
 }
 
-.FBlanc {
+.fblanc {
     background-image: url(image/théatre2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@ body {
     margin-left: -10px;
 }
 
-.FBlanc3 {
+.fblanc3 {
     background-image: url(image/théatre3.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
     margin-left: -10px;
 }
 
-.FBlanc4 {
+.fblanc4 {
     width: 100vw;
     margin-top: -100px;
     margin-left: -10px;
@@ -97,12 +97,12 @@ body {
     width: 99vw;
 }
 
-.ABCD {
+.abcd {
     color: red;
     text-align: center;
 }
 
-.ABCDE {
+.abcde {
     grid-row: 2;
     grid-column: 5 / 7;
     color:white;
@@ -171,6 +171,7 @@ h4 {
     grid-row: 6;
     font-size: 30px;
     animation: -croissant 10s linear 2s infinite normal none;
+    transform: rotate(-45);
 }
 .mot2 {
     grid-column: 8 / 9;
@@ -183,6 +184,7 @@ h4 {
     grid-row: 14;
     font-size: 30px;
     animation: -decroissant 10s linear 2s infinite normal none;
+    transform: rotate(45);
 }
 
 .conteneur2 {
@@ -301,25 +303,25 @@ h4 {
     0% {
         transform: translate(-2px, 2px);
     }
-    12.5% {
+    12% {
         transform: translate(2px, -2px);
     }
     25% {
         transform: translate(-2px, 2px);
     }
-    37.5% {
+    37% {
         transform: translate(2px, -2px);
     }
     50% {
         transform: translate(-2px, 2px);
     }
-    62.5% {
+    62% {
         transform: translate(2px, -2px);
     }
     75% {
         transform: translate(0px, 0px);
     }
-    87.5% {
+    87% {
         transform: translate(500px, -500px);
     }
     100% {
@@ -331,25 +333,25 @@ h4 {
     0% {
         transform: translate(2px, -2px);
     }
-    12.5% {
+    12% {
         transform: translate(-2px, 2px);
     }
     25% {
         transform: translate(2px, -2px);
     }
-    37.5% {
+    37% {
         transform: translate(-2px, 2px);
     }
     50% {
         transform: translate(2px, -2px);
     }
-    62.5% {
+    62% {
         transform: translate(-2px, 2px);
     }
     75% {
         transform: translate(0px, 0px);
     }
-    87.5% {
+    87% {
         transform: translate(-500px, 500px);
     }
     100% {
@@ -361,25 +363,25 @@ h4 {
     0% {
         transform: translate(-2px, -2px);
     }
-    12.5% {
+    12% {
         transform: translate(2px, 2px);
     }
     25% {
         transform: translate(-2px, -2px);
     }
-    37.5% {
+    37% {
         transform: translate(2px, 2px);
     }
     50% {
         transform: translate(-2px, -2px);
     }
-    62.5% {
+    62% {
         transform: translate(2px, 2px);
     }
     75% {
         transform: translate(0px, 0px);
     }
-    87.5% {
+    87% {
         transform: translate(500px, 500px);
     }
     100% {
@@ -391,25 +393,25 @@ h4 {
     0% {
         transform: translate(2px, 2px);
     }
-    12.5% {
+    12% {
         transform: translate(-2px, -2px);
     }
     25% {
         transform: translate(2px, 2px);
     }
-    37.5% {
+    37% {
         transform: translate(-2px, -2px);
     }
     50% {
         transform: translate(2px, 2px);
     }
-    62.5% {
+    62% {
         transform: translate(-2px, -2px);
     }
     75% {
         transform: translate(0px, 0px);
     }
-    87.5% {
+    87% {
         transform: translate(-500px, -500px);
     }
     100% {
@@ -421,25 +423,25 @@ h4 {
     0% {
         transform: translateX(-2px);
     }
-    12.5% {
+    12% {
         transform: translateX(2px);
     }
     25% {
         transform: translateX(-2px);
     }
-    37.5% {
+    37% {
         transform: translateX(2px);
     }
     50% {
         transform: translateX(-2px);
     }
-    62.5% {
+    62% {
         transform: translateX(2px);
     }
     75% {
         transform: translateX(0px);
     }
-    87.5% {
+    87% {
         transform: translateX(700px);
     }
     100% {
@@ -451,25 +453,25 @@ h4 {
     0% {
         transform: translateX(-2px);
     }
-    12.5% {
+    12% {
         transform: translateX(-2px);
     }
     25% {
         transform: translateX(2px);
     }
-    37.5% {
+    37% {
         transform: translateX(-2px);
     }
     50% {
         transform: translateX(2px);
     }
-    62.5% {
+    62% {
         transform: translateX(-2px);
     }
     75% {
         transform: translateX(0px);
     }
-    87.5% {
+    87% {
         transform: translateX(-700px);
     }
     100% {
