@@ -125,15 +125,19 @@ h1{
     width: 40vw;
 }
 h2{
+    font-size: 40px;
     font-family: 'Amatic SC', cursive;
 }
 h3{
+    font-size: 40px;
     font-family: 'parisienne';
 }
 h4 {
+    font-size: 40px;
     font-family: 'Monoton', cursive;
 }
 h5 {
+    font-size: 40px;
     font-family: 'ohthehorror';
 }
 
