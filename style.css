@@ -168,7 +168,7 @@ h5 {
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
     background-color: rgba(0, 161, 201, 0.5);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(8, 222, 250, 0.5) 35px, rgba(8, 222, 250, 0.5) 70px);
     border-radius: 70px;
 }
 .titre {
@@ -185,19 +185,19 @@ h5 {
     animation: opacite 10s linear 2s infinite normal none;
 }
 .mot1 {
-    grid-column: 7 / 8;
+    grid-column: 7 / 9;
     grid-row: 7;
     font-size: 30px;
     animation: -croissant 10s linear 2s infinite normal none;
 }
 .mot2 {
-    grid-column: 8 / 9;
+    grid-column: 8 / 10;
     grid-row: 11;
     font-size: 30px;
     animation: -moveX 10s linear 2s infinite normal none;
 }
 .mot3 {
-    grid-column: 7 / 8;
+    grid-column: 7 / 9;
     grid-row: 15;
     font-size: 30px;
     animation: -decroissant 10s linear 2s infinite normal none;
@@ -208,8 +208,8 @@ h5 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background-color:rgba(206, 206, 5, 0.6);
-    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    background-color:rgba(206, 206, 5, 0.7);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(251, 255, 0, 0.5) 35px,rgba(251, 255, 0, 0.5) 70px);
     border-radius: 70px;
 }
 .right {
@@ -219,19 +219,19 @@ h5 {
     height: 95.7vh;
 }
 .mot1by {
-    grid-column: 3 / 4;
+    grid-column: 3 / 5;
     grid-row: 7;
     font-size: 30px;
     animation: decroissant 10s linear 2s infinite normal none;
 }
 .mot2by {
-    grid-column: 2 / 3;
+    grid-column: 2 / 4;
     grid-row: 11;
     font-size: 30px;
     animation: moveX 10s linear 2s infinite normal none;
 }
 .mot3by {
-    grid-column: 3 / 4;
+    grid-column: 3 / 5;
     grid-row: 15;
     font-size: 30px;
     animation: croissant 10s linear 2s infinite normal none;
@@ -241,8 +241,8 @@ h5 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background-color: rgba(5, 94, 2, 0.7);
-    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    background-color: rgba(5, 94, 2, 0.8);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(83, 255, 4, 0.5) 35px, rgba(83, 255, 4, 0.5) 70px);
     border-radius: 70px;
 }
 
@@ -250,8 +250,8 @@ h5 {
     display: grid;
     grid-template-columns: repeat(10, 10vw);
     grid-template-rows: repeat(19, 6.6vh);
-    background-color:   rgba(204, 4, 4, 0.8);
-    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+    background-color:   rgba(204, 4, 4, 0.9);
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 35px, rgba(252, 0, 84, 0.5) 35px, rgba(252, 0, 84, 0.5) 70px);
     border-radius: 70px;
 }
 
