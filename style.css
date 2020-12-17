@@ -1,13 +1,7 @@
 body {
     width: 100vw;
-    background-color: transparent;
-    background-image:
-    radial-gradient(circle at 100% 150%, pink 24%, lightblue 24%, lightblue 28%, pink 28%, pink 36%, lightblue 36%, lightblue 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0    150%, pink 24%, lightblue 24%, lightblue 28%, pink 28%, pink 36%, lightblue 36%, lightblue 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50%  100%, white 10%, lightgreen 10%, lightgreen 23%, lightblue 23%, lightblue 30%, pink 30%, pink 43%, lightblue 43%, lightblue 50%, pink 50%, pink 63%, lightblue 63%, lightblue 71%, transparent 71%, transparent),
-    radial-gradient(circle at 100% 50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent),
-    radial-gradient(circle at 0    50%, white 5%, lightgreen 5%, lightgreen 15%, lightblue 15%, lightblue 20%, pink 20%, pink 29%, lightblue 29%, lightblue 34%, pink 34%, pink 44%, lightblue 44%, lightblue 49%, transparent 49%, transparent);
-    background-size: 100px 50px;
+    background-image: url(image/theatre-body.png);
+    background-size: 100vw;
     overflow-x: hidden;
 }
 
@@ -32,6 +26,7 @@ body {
 .axe {
     height: 100px;
     width: 50vw;
+    margin-top: 120px;
     margin-left: 25vw;
     margin-right: 25vw;
 }
