@@ -1,7 +1,5 @@
 body {
     width: 100vw;
-    /* background-image: url(image/theatre-body.png);
-    background-size: 100vw; */
     background-image: url(image/theatre-body2.png);
     background-size: 100vw;
     overflow-x: hidden;
@@ -28,7 +26,6 @@ body {
 .axe {
     height: 100px;
     width: 50vw;
-    /* margin-top: 120px; */
     margin-top: 61px;
     margin-left: 25vw;
     margin-right: 25vw;
